@@ -5,20 +5,23 @@
 
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
 local TextButton = Instance.new("TextButton")
 local UICorner = Instance.new("UICorner")
-local UICorner_2 = Instance.new("UICorner")
-local TextLabel = Instance.new("TextLabel")
 local TextButton_2 = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local TextButton_3 = Instance.new("TextButton")
 local UICorner_3 = Instance.new("UICorner")
 local Frame_2 = Instance.new("Frame")
-local TextButton_3 = Instance.new("TextButton")
 local UICorner_4 = Instance.new("UICorner")
 local Frame_3 = Instance.new("Frame")
 local Frame_4 = Instance.new("Frame")
-local TextLabel_2 = Instance.new("TextLabel")
-local TextLabel_3 = Instance.new("TextLabel")
 local Frame_5 = Instance.new("Frame")
+local TextButton_4 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Frame_6 = Instance.new("Frame")
 
 --Properties:
 
@@ -29,14 +32,56 @@ Frame.Parent = ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
 Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BorderSizePixel = 0
-Frame.Position = UDim2.new(0.440680534, 0, 0.396383852, 0)
-Frame.Size = UDim2.new(0, 249, 0, 293)
+Frame.Position = UDim2.new(0.434549332, 0, 0.267732948, 0)
+Frame.Size = UDim2.new(0, 265, 0, 347)
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 2.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.0722891167, 0, 0.129240453, 0)
+TextLabel.Size = UDim2.new(0, 206, 0, 99)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "When you pressed Aimbot Press on you keyboard e to toggle aimbot"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 2.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.277835935, 0, 0.412674159, 0)
+TextLabel_2.Size = UDim2.new(0, 104, 0, 24)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Version: V 0.1"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+TextLabel_3.Parent = Frame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 2.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0, 0, 0.0238907859, 0)
+TextLabel_3.Size = UDim2.new(0, 164, 0, 23)
+TextLabel_3.Font = Enum.Font.SourceSansBold
+TextLabel_3.Text = "PulseX Aimbot Ui"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
 
 TextButton.Parent = Frame
 TextButton.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
 TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton.BorderSizePixel = 0
-TextButton.Position = UDim2.new(0.0722891539, 0, 0.829351544, 0)
+TextButton.Position = UDim2.new(0.0685155317, 0, 0.82646966, 0)
 TextButton.Size = UDim2.new(0, 213, 0, 35)
 TextButton.Font = Enum.Font.SourceSans
 TextButton.Text = "Esp"
@@ -46,22 +91,6 @@ TextButton.TextSize = 12.000
 TextButton.TextWrapped = true
 
 UICorner.Parent = TextButton
-
-UICorner_2.Parent = Frame
-
-TextLabel.Parent = Frame
-TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.BackgroundTransparency = 2.000
-TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel.BorderSizePixel = 0
-TextLabel.Position = UDim2.new(0, 0, 0.0238907859, 0)
-TextLabel.Size = UDim2.new(0, 164, 0, 23)
-TextLabel.Font = Enum.Font.SourceSansBold
-TextLabel.Text = "PulseX Aimbot Ui"
-TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.TextScaled = true
-TextLabel.TextSize = 14.000
-TextLabel.TextWrapped = true
 
 TextButton_2.Parent = Frame
 TextButton_2.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
@@ -76,20 +105,13 @@ TextButton_2.TextScaled = true
 TextButton_2.TextSize = 14.000
 TextButton_2.TextWrapped = true
 
-UICorner_3.Parent = TextButton_2
-
-Frame_2.Parent = Frame
-Frame_2.BackgroundColor3 = Color3.fromRGB(164, 8, 255)
-Frame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Frame_2.BorderSizePixel = 0
-Frame_2.Position = UDim2.new(0.0441767052, 0, 0.102389075, 0)
-Frame_2.Size = UDim2.new(0, 142, 0, 3)
+UICorner_2.Parent = TextButton_2
 
 TextButton_3.Parent = Frame
 TextButton_3.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
 TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_3.BorderSizePixel = 0
-TextButton_3.Position = UDim2.new(0.0722891539, 0, 0.665529013, 0)
+TextButton_3.Position = UDim2.new(0.0722891167, 0, 0.682820082, 0)
 TextButton_3.Size = UDim2.new(0, 213, 0, 35)
 TextButton_3.Font = Enum.Font.SourceSans
 TextButton_3.Text = "Aimbot"
@@ -98,60 +120,63 @@ TextButton_3.TextScaled = true
 TextButton_3.TextSize = 12.000
 TextButton_3.TextWrapped = true
 
-UICorner_4.Parent = TextButton_3
+UICorner_3.Parent = TextButton_3
+
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(164, 8, 255)
+Frame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0.0441767052, 0, 0.102389075, 0)
+Frame_2.Size = UDim2.new(0, 142, 0, 3)
+
+UICorner_4.Parent = Frame
 
 Frame_3.Parent = Frame
 Frame_3.BackgroundColor3 = Color3.fromRGB(164, 8, 255)
 Frame_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame_3.BorderSizePixel = 0
-Frame_3.Position = UDim2.new(0.0722891539, 0, 0.78498292, 0)
+Frame_3.Position = UDim2.new(0.0571947768, 0, 0.782101035, 0)
 Frame_3.Size = UDim2.new(0, 213, 0, 3)
 
 Frame_4.Parent = Frame
 Frame_4.BackgroundColor3 = Color3.fromRGB(164, 8, 255)
 Frame_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame_4.BorderSizePixel = 0
-Frame_4.Position = UDim2.new(0.0722891539, 0, 0.948805451, 0)
+Frame_4.Position = UDim2.new(0.0722891167, 0, 0.928632557, 0)
 Frame_4.Size = UDim2.new(0, 213, 0, 3)
-
-TextLabel_2.Parent = Frame
-TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.BackgroundTransparency = 2.000
-TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_2.BorderSizePixel = 0
-TextLabel_2.Position = UDim2.new(0.0722891539, 0, 0.163822532, 0)
-TextLabel_2.Size = UDim2.new(0, 206, 0, 99)
-TextLabel_2.Font = Enum.Font.SourceSans
-TextLabel_2.Text = "When you pressed Aimbot Press on you keyboard e to toggle aimbot"
-TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.TextScaled = true
-TextLabel_2.TextSize = 14.000
-TextLabel_2.TextWrapped = true
-
-TextLabel_3.Parent = Frame
-TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_3.BackgroundTransparency = 2.000
-TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_3.BorderSizePixel = 0
-TextLabel_3.Position = UDim2.new(0.289156616, 0, 0.522184312, 0)
-TextLabel_3.Size = UDim2.new(0, 104, 0, 24)
-TextLabel_3.Font = Enum.Font.SourceSans
-TextLabel_3.Text = "Version: V 0.1"
-TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_3.TextScaled = true
-TextLabel_3.TextSize = 14.000
-TextLabel_3.TextWrapped = true
 
 Frame_5.Parent = Frame
 Frame_5.BackgroundColor3 = Color3.fromRGB(164, 8, 255)
 Frame_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame_5.BorderSizePixel = 0
-Frame_5.Position = UDim2.new(0.212851405, 0, 0.604095578, 0)
+Frame_5.Position = UDim2.new(0.205304295, 0, 0.471530706, 0)
 Frame_5.Size = UDim2.new(0, 142, 0, 3)
+
+TextButton_4.Parent = Frame
+TextButton_4.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.BorderSizePixel = 0
+TextButton_4.Position = UDim2.new(0.0722891167, 0, 0.541609704, 0)
+TextButton_4.Size = UDim2.new(0, 213, 0, 35)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = "Mobile:Aimbot"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextScaled = true
+TextButton_4.TextSize = 12.000
+TextButton_4.TextWrapped = true
+
+UICorner_5.Parent = TextButton_4
+
+Frame_6.Parent = Frame
+Frame_6.BackgroundColor3 = Color3.fromRGB(164, 8, 255)
+Frame_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_6.BorderSizePixel = 0
+Frame_6.Position = UDim2.new(0.0722891167, 0, 0.643329978, 0)
+Frame_6.Size = UDim2.new(0, 213, 0, 3)
 
 -- Scripts:
 
-local function WXXG_fake_script() -- TextButton.ShowPurpleBoxesOnButtonClick 
+local function EYXMNN_fake_script() -- TextButton.ShowPurpleBoxesOnButtonClick 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local Players = game:GetService("Players")
@@ -263,8 +288,8 @@ local function WXXG_fake_script() -- TextButton.ShowPurpleBoxesOnButtonClick
 	
 	
 end
-coroutine.wrap(WXXG_fake_script)()
-local function BPRXEK_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(EYXMNN_fake_script)()
+local function BCJD_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	-- LocalScript unter deinem TextButton ─ by Skyonix
@@ -400,8 +425,8 @@ local function BPRXEK_fake_script() -- TextButton.LocalScript
 	end
 	
 end
-coroutine.wrap(BPRXEK_fake_script)()
-local function ZVDYWG_fake_script() -- TextButton_2.CloseScreenGuiOnButtonClick 
+coroutine.wrap(BCJD_fake_script)()
+local function QYLFSTD_fake_script() -- TextButton_2.CloseScreenGuiOnButtonClick 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	local button = script.Parent
@@ -417,8 +442,154 @@ local function ZVDYWG_fake_script() -- TextButton_2.CloseScreenGuiOnButtonClick
 	
 	
 end
-coroutine.wrap(ZVDYWG_fake_script)()
-local function EFOV_fake_script() -- Frame.SmoothDraggableFrameWithEntranceAnimation 
+coroutine.wrap(QYLFSTD_fake_script)()
+local function TZHLPW_fake_script() -- TextButton_3.AimbotButtonWithE 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	local Players = game:GetService("Players")
+	local RunService = game:GetService("RunService")
+	local UserInputService = game:GetService("UserInputService")
+	local Workspace = game:GetService("Workspace")
+	
+	local button = script.Parent
+	local localPlayer = Players.LocalPlayer
+	local camera = Workspace.CurrentCamera
+	
+	local aimbotEnabled = false
+	local aiming = false
+	local holdingE = false
+	local currentTarget = nil
+	local aimConnection = nil
+	
+	-- Helper to check if a model is a player character
+	local function isPlayerCharacter(model)
+	    for i, player in Players:GetPlayers() do
+	        if player.Character == model then
+	            return true
+	        end
+	    end
+	    return false
+	end
+	
+	-- Get all valid targets (player characters and rigs)
+	local function getTargets()
+	    local targets = {}
+	    -- Player characters
+	    for i, player in Players:GetPlayers() do
+	        if player ~= localPlayer and player.Character then
+	            table.insert(targets, player.Character)
+	        end
+	    end
+	    -- Rigs (models in workspace that are not player characters)
+	    for i, obj in Workspace:GetChildren() do
+	        if obj:IsA("Model") and not isPlayerCharacter(obj) then
+	            table.insert(targets, obj)
+	        end
+	    end
+	    return targets
+	end
+	
+	-- Find the closest target to the local player
+	local function getClosestTarget()
+	    local character = localPlayer.Character
+	    if not character then return nil end
+	    local root = character:FindFirstChild("HumanoidRootPart")
+	    if not root then return nil end
+	
+	    local targets = getTargets()
+	    local closest = nil
+	    local minDist = math.huge
+	
+	    for i, target in targets do
+	        local targetPart = target:FindFirstChild("Head") or target:FindFirstChild("HumanoidRootPart")
+	        if targetPart then
+	            local dist = (root.Position - targetPart.Position).Magnitude
+	            if dist < minDist then
+	                minDist = dist
+	                closest = target
+	            end
+	        end
+	    end
+	    return closest
+	end
+	
+	-- Aim camera at the target
+	local function startAiming()
+	    if aiming then return end
+	    currentTarget = getClosestTarget()
+	    if not currentTarget then return end
+	    aiming = true
+	
+	    aimConnection = RunService.RenderStepped:Connect(function()
+	        if not aiming or not currentTarget then return end
+	        local targetPart = currentTarget:FindFirstChild("Head") or currentTarget:FindFirstChild("HumanoidRootPart")
+	        if targetPart then
+	            local camPos = camera.CFrame.Position
+	            local lookAt = targetPart.Position
+	            camera.CFrame = CFrame.new(camPos, lookAt)
+	        end
+	    end)
+	end
+	
+	local function stopAiming()
+	    aiming = false
+	    if aimConnection then
+	        aimConnection:Disconnect()
+	        aimConnection = nil
+	    end
+	    currentTarget = nil
+	end
+	
+	-- Logic to check if we should aim
+	local function updateAiming()
+	    if aimbotEnabled and holdingE then
+	        startAiming()
+	    else
+	        stopAiming()
+	    end
+	end
+	
+	-- Listen for button click to enable/disable aimbot mode
+	button.MouseButton1Click:Connect(function()
+	    aimbotEnabled = not aimbotEnabled
+	    updateAiming()
+	end)
+	
+	-- Listen for E key press/release
+	UserInputService.InputBegan:Connect(function(input, processed)
+	    if processed then return end
+	    if input.KeyCode == Enum.KeyCode.E then
+	        holdingE = true
+	        updateAiming()
+	    end
+	end)
+	
+	UserInputService.InputEnded:Connect(function(input, processed)
+	    if input.KeyCode == Enum.KeyCode.E then
+	        holdingE = false
+	        updateAiming()
+	    end
+	end)
+	
+	-- Clean up if GUI is closed
+	local screenGui = button
+	while screenGui and not screenGui:IsA("ScreenGui") do
+	    screenGui = screenGui.Parent
+	end
+	if screenGui then
+	    screenGui:GetPropertyChangedSignal("Enabled"):Connect(function()
+	        if not screenGui.Enabled then
+	            aimbotEnabled = false
+	            holdingE = false
+	            stopAiming()
+	        end
+	    end)
+	end
+	
+	
+end
+coroutine.wrap(TZHLPW_fake_script)()
+local function VXURE_fake_script() -- Frame.SmoothDraggableFrameWithEntranceAnimation 
 	local script = Instance.new('LocalScript', Frame)
 
 	local TweenService = game:GetService("TweenService")
@@ -486,12 +657,11 @@ local function EFOV_fake_script() -- Frame.SmoothDraggableFrameWithEntranceAnima
 	
 	
 end
-coroutine.wrap(EFOV_fake_script)()
-local function SCLVH_fake_script() -- TextButton_3.AimbotToggleOnE 
-	local script = Instance.new('LocalScript', TextButton_3)
+coroutine.wrap(VXURE_fake_script)()
+local function XVDJUC_fake_script() -- TextButton_4.AimbotToggleOnE 
+	local script = Instance.new('LocalScript', TextButton_4)
 
 	local Players = game:GetService("Players")
-	local UserInputService = game:GetService("UserInputService")
 	local RunService = game:GetService("RunService")
 	local Workspace = game:GetService("Workspace")
 	
@@ -583,27 +753,15 @@ local function SCLVH_fake_script() -- TextButton_3.AimbotToggleOnE
 	    currentTarget = nil
 	end
 	
-	-- Listen for E key to toggle aiming
-	local function onInputBegan(input, processed)
-	    if not aimbotEnabled or processed then return end
-	    if input.KeyCode == Enum.KeyCode.E then
-	        if aiming then
-	            stopAiming()
-	        else
-	            startAiming()
-	        end
-	    end
-	end
-	
-	-- Listen for button click to enable/disable aimbot mode
+	-- Listen for button click to enable/disable aimbot mode and aiming
 	button.MouseButton1Click:Connect(function()
 	    aimbotEnabled = not aimbotEnabled
-	    if not aimbotEnabled then
+	    if aimbotEnabled then
+	        startAiming()
+	    else
 	        stopAiming()
 	    end
 	end)
-	
-	UserInputService.InputBegan:Connect(onInputBegan)
 	
 	-- Clean up if GUI is closed
 	local screenGui = button
@@ -621,4 +779,4 @@ local function SCLVH_fake_script() -- TextButton_3.AimbotToggleOnE
 	
 	
 end
-coroutine.wrap(SCLVH_fake_script)()
+coroutine.wrap(XVDJUC_fake_script)()
